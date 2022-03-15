@@ -1,5 +1,9 @@
 class User
+  def name=(name)
+    @name = name
+  end
+
   def name
-    return "匿名さん"
+    @name
   end
 end
